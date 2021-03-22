@@ -1,0 +1,23 @@
+{
+  "name": "avexsoft/chinese-lunar-calendar",
+  "type": "library",
+  "description": "Converts from Gregorian date to Chinese lunisolar date and vice versa.",
+  "keywords": ["date", "chinese-date", "chinese-calendar", "lunar-date", "lunar-calendar"],
+  "homepage": "https://github.com/avexsoft/chinese-lunar-calendar",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Avexsoft",
+      "homepage": "https://github.com/avexsoft/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Avexsoft\\Lunar\\": "src/"
+    }
+  }
+}
